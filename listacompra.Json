@@ -1,0 +1,106 @@
+{
+    "compra":{
+        "Nombre":"Mercadona",
+        "Direccion":"Calle Sant Joan 10 ",
+        "Geolocalizacion":{
+            "latitud":30.762590,
+            "longitud":-8.612876
+        }
+    },
+    
+    "Productos":
+    [
+        {
+        "Zumo de manzana":{
+            "Cantidad":7,
+            "Precio_unidad":0.61 ,
+            "Oferta":{
+                "descuento":0.10,
+                "Vigencia":{
+             "Fecha caducidad" :"24-02-2024" 
+            }
+        },
+         "Adquirido":true 
+    } ,
+    "Bananas":{
+        "Cantidad":6,
+        "Precio_unidad":0.90,
+        "Oferta":null,
+         "Adquirido":true
+
+    },
+    "Melocoton":{
+        "Cantidad":5,
+        "Precio_unidad":0.70,
+        "Oferta":{
+            "compra":2,
+            "lleva":3,
+            "Caducidad":{
+                "Fin":"05-4-2025"
+            }
+        },
+          "Adquirido":false
+        },
+        "Jamon dulce":{
+            "Cantidad":100,
+            "unidad_de_medida":"gramos",
+            "Adquirido":false}
+                } 
+            ],
+        
+        
+  
+             "compra2":{
+                    "Nombre":"Aldi",
+                    "Direccion":"Calle Marti l'huma 5 ",
+                    "Geolocalizacion":{
+                        "latitud":75.154863,
+                        "longitud":-5.452545
+                    } 
+                },
+    
+                "Productos2":
+                [
+                    {
+                    "Champu":{
+                        "Cantidad":1,
+                        "Precio_unidad":1.90 ,
+                        "Oferta":{
+                            "descuento":0.60,
+                            "Vigencia":{
+                         "Fecha caducidad" :"14-10-2026" 
+                        }
+                    },
+                     "Adquirido":false 
+                } ,
+                "Lavaplatos":{
+                    "Cantidad":2,
+                    "Precio_unidad":0.75,
+                    "Oferta":{
+                        "descuento":1.00,
+                        "Vigencia":{
+                            "Caducidad":"20-06-2028"
+                        }
+                    },
+                     "Adquirido":true
+            
+                },
+                "Galletas":{
+                    "Cantidad":5,
+                    "Precio_unidad":1.80,
+                    "Oferta":{
+                        "compra":2,
+                        "lleva":3,
+                        "Caducidad":{
+                            "Fin":"20-3-2028"
+                        }
+                    },
+                      "Adquirido":true
+                    },
+                    "Chuletas de cerdo":{
+                        "Cantidad":1,
+                        "unidad_de_medida":"kilogramo",
+                        "Adquirido":true
+                    } 
+   }   ]
+}

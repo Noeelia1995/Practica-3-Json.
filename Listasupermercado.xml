@@ -1,0 +1,36 @@
+ <?xml version="1.0"encoding="UTF-8"?>
+
+ <Supermercado="Lidl"
+ direccion="Francesc Macia,10"
+ latitud="30.254876"
+ longitud="-4.645278">
+
+ <Producto="Leche"Precio="0,90"
+ cantidad="2" oferta="True"
+ ofertadetalle="10% descuento"
+ unidadmedida="Litro"
+ vigencia="30/06/2024" adquirido/>
+ 
+ <Producto="Huevos"
+ precio="1.50"
+ cantidad="12"
+ oferta="True"
+ ofertadetalle="2x1"
+ unidadmedida="Unidad"
+ vigencia="30/02/2024"
+ adquirido=False/>
+
+ <Producto="Pollo"
+ Precio="4.50"
+ cantidad="2"
+ oferta="false"
+ unidadmedida="Kg"
+ vigencia="30/06/2024"/>
+
+<Producto="Agua Mineral"
+precio="0.50"
+cantidad="1.5 litros"
+oferta="False"
+unidadmedida="Litro"
+vigencia="30/06/2025"
+adquirido="True"/>
